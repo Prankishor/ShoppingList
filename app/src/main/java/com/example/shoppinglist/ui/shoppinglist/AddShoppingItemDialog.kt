@@ -7,7 +7,8 @@ import androidx.appcompat.app.AppCompatDialog
 import com.example.shoppinglist.data.db.entities.ShoppingItem
 import com.example.shoppinglist.databinding.DialogAddShoppingItemBinding
 
-class AddShoppingItemDialog(context: Context, var addDialogListener: AddDialogListener) : AppCompatDialog(context) {
+class AddShoppingItemDialog(context: Context, var addDialogListener: AddDialogListener) :
+    AppCompatDialog(context) {
 
     private lateinit var binding : DialogAddShoppingItemBinding
 
